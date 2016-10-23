@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "VeraCity",
+	"description" : "Detects whether a block of human-written text was created naturally or artificially",
+	"version": "1.0",
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"icons": {
+		"64": "icon.png",
+		"32": "icon.png",
+		"16": "icon.png",
+		"128": "icon.png"
+	},
+	"permissions": [
+		"contextMenus"
+	]
+}
